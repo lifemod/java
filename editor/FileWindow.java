@@ -143,9 +143,7 @@ public class FileWindow extends JFrame implements ActionListener, Runnable {
 				byte[] buf = new byte[150];
 				byte[] err_buf = new byte[150];
 				
-				@SuppressWarnings("unused")
 				int m = 0;
-				@SuppressWarnings("unused")
 				int i = 0;
 				String s = null;
 				String err = null;
